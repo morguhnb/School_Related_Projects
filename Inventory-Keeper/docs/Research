@@ -1,0 +1,51 @@
+-------------Research -------------------
+
+Front end development has begun on our project, our current research involves connecting our app to a database to store information long term. To that end we are looking into using Google Firebase.
+
+Some sources we have been utilizing:
+
+React Native:
+https://www.youtube.com/watch?v=0-S5a0eXPoc
+https://www.youtube.com/watch?v=Hf4MJH0jDb4&ab_channel=TraversyMedia
+
+Java Script:
+https://www.youtube.com/watch?v=W6NZfCO5SIk
+
+React Navigation:
+https://reactnavigation.org
+
+------------DeJa Research ---------------- 
+Dev Enviroment:
+	https://www.youtube.com/watch?v=SoUImPu0jjM&ab_channel=NadeemKhan 
+	https://www.youtube.com/watch?v=gVGuNxkh8ig&ab_channel=ToThePointCode
+	https://reactnative.dev/docs/environment-setup
+	https://www.youtube.com/watch?v=O-SlzLC3eJw&t=990s&ab_channel=HANOMEDIA
+Edit Feature:
+	https://www.youtube.com/watch?v=r328WqP5Rzs&ab_channel=MirChristopher
+	https://www.youtube.com/watch?v=Nezj-d5vdNU&ab_channel=LirsTechTips
+	https://stackoverflow.com/questions/63178260/how-to-edit-a-flatlist-item-in-react-native
+	https://love-coding.pl/en/react-native-editable-list-how-to-edit-item-data-in-a-list/
+
+Adding Item to Database:
+	https://www.youtube.com/watch?v=LYi1gwPWDto&t=370s&ab_channel=AdrianTwarog
+	https://www.youtube.com/watch?v=20TSEoJkg5k&ab_channel=BornToCode
+	https://www.youtube.com/watch?v=_Wq1ZPhL3ic&ab_channel=TheFlutterFactory
+	https://firebase.google.com/docs/firestore/manage-data/structure-data
+
+------------Bryce Research------------------
+Screen Navigation 
+	https://www.youtube.com/watch?v=nQVCkqvU1uE
+Firebase/Login Authentication
+	https://www.youtube.com/watch?v=ql4J6SpLXZA&t=123s
+
+------------Morguhn Research----------------
+Google Fire Base:
+    Setup:
+		https://firebase.google.com/docs/android/setup
+		https://docs.kii.com/en/samples/push-notifications/push-notifications-android-fcm/create-project/
+		https://www.youtube.com/watch?v=qKxisFLQRpQ
+    Linking to app:
+		https://www.youtube.com/watch?v=nep85PD8U7M
+    Sign In Authentication:
+		https://firebase.google.com/docs/auth/web/google-signin
+		https://www.youtube.com/watch?v=0K17vj7okM8

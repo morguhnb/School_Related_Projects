@@ -1,0 +1,5 @@
+Title or name of research/training - Refactoring with React Navigation.
+Why - To better organize our code so that we can navigate screen to screen. Currently everything is jumbled up in app.js and hard to merge our teams code. 
+What I expect to learn/do - I expect to learn how to refactor our app.js to include navigators with the use of a stack navigator in order to move between different screens by components. 
+What do I expect with it - I believe once this is done and I implement a new UI for my team we should have an easier time with contributions by developing split up forms of components.
+What task(s) in Jira represent the work you will do that was/is dependent on the research/training. - Creating react navigation and linking the login UI to a component. 
