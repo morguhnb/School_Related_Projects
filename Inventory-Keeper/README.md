@@ -99,7 +99,7 @@ Our hope is to help people be better organized when it comes to daily used items
 ## Next Steps for Sprint 4
 
 - Morguhn
-    - Allow for item date's to be optional
+    - Allow for item dates to be optional
     - Visual queue for how close an item is to it's expiration / reminder date
     - Refactor/Clean up Add Item, Edit Item, and InventoryItem files
 - DeJa 
