@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>ColorFy Filter</title>
+{% endblock %}
+{% block body %}
+    <div align="center">
+        <div class="card" style="width: 45rem;">
+          <div class="card-body">
+              <img class="card-img-top" src="static/colorfilter.png" alt="Card image cap">
+              <div align="center">
+                  <p align="left"><strong>Instructions: </strong>Please choose a photo you would like to upload. This color filter is currently
+                  compatable with .jpg files exclusively. Once you have uploaded a file select the color filter you
+                  would like to use. Select submit when you are ready.</p> <br>
+                  <form method="post" action="/filteredImage" enctype="multipart/form-data">
+                        <input type = "file" name = "file" align="left" style="padding-left: 90px"/><br><br>
+                        <div>
+                            <label for = "filters">Select Color Filter</label>
+                            <select name = "filters" id = "filters">
+                                <option value = " "></option>
+                                <option value = "r-w">Red Weak</option>
+                                <option value = "r-b">Red Blind</option>
+                                <option value = "g-w">Green Weak</option>
+                                <option value = "g-b">Green Blind</option>
+                            </select>
+                        </div><br>
+                        <input class="btn btn-primary" type = "submit" style="margin-top: 20px"/>
+                    </form>
+              </div>
+          </div>
+        </div>
+    </div>
+{% endblock %}

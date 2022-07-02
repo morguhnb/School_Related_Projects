@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+{% block title %}
+    Filtered Image
+{% endblock %}
+{% block head %}
+    <style>
+    .column{
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        border: #FF5733 1px;
+    }
+    .row::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+    #pic1{
+        width: 500px;
+        height: 300px;
+        margin-left: 100px;
+        margin-top: 50px;
+
+    }
+    #pic2{
+        width: 500px;
+        height: 300px;
+        margin-left: 300px;
+        margin-top: 50px;
+    }
+    img{
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #2f4573;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+#download{
+    text-decoration: none;
+    color: #142c6b;
+}
+#download-btn{
+    height: 56px;
+    background-color: orange;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+}
+#download-btn:hover{
+    height: 56px;
+    background-color: #ffd287;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+}
+#download:hover{
+    text-decoration: none;
+    color: #eaeaea;
+}
+.card{
+    margin-top: 30px;
+    margin-left: 215px;
+    margin-bottom: 30px;
+}
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+{% endblock %}
+
+
+{% block body %}
+    <form>
+    <div class="row">
+        <div class="column">
+            <div id="pic1">
+                <h3 align="center">Original Picture</h3>
+                <img src={{user_Image}} style="height">
+            </div>
+        </div>
+
+        <div class="column">
+            <div id="pic2">
+                <h3 align="center">Filtered Image</h3>
+                <div>
+                    <img src={{new_Image}} style="height">
+                </div>
+            </div>
+        </div>
+    </div>
+        <br><br>
+
+        <div align="center">
+            <h4>Share your filtered photo:</h4>
+            <a href="https://www.facebook.com/share.php?u=your_page_link.com" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/intent/tweet?url=WEBSITE_URL_GOES_HERE" target="_blank" class="fa fa-twitter"></a>
+            <button id="download-btn"><a href="{{ new_Image }}"download id="download">Download</a></button>
+        </div>
+
+    <div class="card" style="width: 60rem;">
+      <div class="card-body">
+      <h2 align="center">About the filter</h2>
+        <p>Our color filter was developed to assist with color blindness within the red/green spectrum. Utilizing the Python
+        programming language we were able to design a filter that would identify various shades of red and green within a photo.
+        Realizing many individuals experiencing color blindness are unable to view common workplace documents or differentiate
+        everyday items our filter seeks to make this differentiation more simple.</p>
+      </div>
+    </div>
+
+    </form>
+{% endblock %}
+
+{% block footer %}
+<footer class="page-footer font-small bg-light">
+  <div class="footer-copyright text-center py-3">© 2022 Copyright
+    ColorFy Color Filter
+  </div>
+</footer>
+{% endblock %}

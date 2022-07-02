@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="../static/quizStyle.css">
+{% endblock %}
+{% block title %}
+
+{% endblock %}
+{% block body %}
+<div id="quizbox">
+    <div class="card" style="width: 45rem;">
+      <div class="card-body">
+          <div id="instructions">
+               <img class="card-img-top" src="static/colorfyquiz.png" alt="Card image cap">
+              <h5 class="card-title">Colorfy Color Blind Test</h5>
+              <p class="card-text">ColorFy utilizes a color vision test known as an Ishihara Test to determine if you have the
+                possible traits resulting in red-green color blindness. You will be provided 14 color plates alternating in
+                color patterns and size dots within the picture. This quiz is intended for entertainment purposes only and
+                does not suffice as a medical diagnostic. </p> <br>
+              <p><strong>Instructions:</strong> Select the start button to begin the quiz. Upon beginning the quiz type the number you see
+                  indicated in the circle. If no number is visible do not type and answer and select next. Upon completing
+                  all 14 questions you will be provided with your results.</p> <br>
+          </div>
+          <div id="result" class="hide">
+              <h1 align="center">Final Result</h1><br><br>
+              <h3 align="center" id="score"></h3><br><br>
+              <p align="center" id="quizInfo"></p>
+          </div>
+          <button id="start" class="btn btn-primary">Start</button>
+          <button class="hide">Submit</button>
+
+          <h3 id="questionPrompt" align="center" class="hide">What value is displayed below?</h3><br>
+            <div id="img"></div>
+            <div id="question" align="center"></div>
+            <br>
+            <div id="container" class="hide">
+                <div class="answerContainer">
+                    <div id="answer-buttons"></div>
+                    <div id="answerBox">
+
+                        <input id="textbox" class="form-control" placeholder="Type here" type="text" name="answer">
+                        <br><button id="next" class="btn btn-primary" >Next</button>
+
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
+</div>
+
+<script src="../static/quizscript.js"></script>
+
+{% endblock %}
+
+
