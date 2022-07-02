@@ -9,3 +9,5 @@ Our approach focused only on correcting pixels within color ranges that were dif
 image possible, as close to its original form as possible. 
 
 Our filters were designed using real user feedback from colorblind volunteers on social media, and via Google surveys.
+
+Note: The version of colorfy on my machine is the version just before some visual updates were made before the project's submission. If this message is visible, I have not recieved the most up to date version of the application yet, however all color filtering functionality is present.
