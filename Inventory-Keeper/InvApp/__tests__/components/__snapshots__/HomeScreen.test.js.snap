@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen /> renders correctly 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "color": "darkslateblue",
+        "fontSize": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Inventory Keeper
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#c2bad8",
+        "margin": 5,
+        "opacity": 1,
+        "padding": 30,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "darkslateblue",
+          "fontSize": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      Add Item
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#c2bad8",
+        "margin": 5,
+        "opacity": 1,
+        "padding": 30,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "darkslateblue",
+          "fontSize": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      Item List
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#c2bad8",
+        "margin": 5,
+        "opacity": 1,
+        "padding": 30,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "darkslateblue",
+          "fontSize": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+       Go back 
+    </Text>
+  </View>
+</View>
+`;
